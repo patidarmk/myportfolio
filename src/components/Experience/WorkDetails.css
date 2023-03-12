@@ -1,0 +1,42 @@
+.work-history-section{
+    padding: 1rem 2rem;
+}
+.work-history-position {
+    font-size: var(--text-2xl);
+    margin-bottom: .5rem;
+}
+
+.work-history-company {
+    font-size:  var(--text-3xl);
+    color:#64ffda;
+}
+
+.work-history-timeline {
+    font-size:  var(--text-xl);
+    /* line-height: 3rem; */
+    margin-bottom: 1rem;
+}
+
+.work-history-description {
+    font-size: var(--text-3xl);
+    opacity: 0.8;
+    font-size: 0.5rem;
+    line-height: 1.2rem;
+    letter-spacing: 0.02rem;
+
+}
+
+.work-history-description ul {
+    list-style-type: disclosure-closed;
+    margin: 0;
+    padding: 0;
+    margin-left:2rem
+
+}
+
+.work-history-description ul li {
+    margin-bottom: 1rem;
+    font-size: var(--text-xl);
+    line-height: var(--text-5xl);
+    letter-spacing: 0.02rem;
+}
