@@ -1,0 +1,191 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;0,600;1,500&display=swap');
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  color: #FFFFFF;
+  width: 100%;
+  background-color: #11071F;
+  font-family:'Open Sans' ;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+ 
+  color: #61dafb;
+}
+
+h1{
+  font-size: var(--text-5xl);
+}
+
+
+.icon-container{
+  display: flex;
+  justify-content: end;
+  gap:1rem;
+}
+
+.icon {
+  width:25%;
+  color:#7127BA;
+  color:#F3FF0F;
+  color: #d7daa9;
+  color:#64ffda;
+}
+
+.icon-secondary {
+  width:8%;
+  color: #ccd6f6;
+  transition: all 0.3s;
+}
+.icon-secondary:hover {
+  color: #F3FF0F;
+  color: #d7daa9;
+}
+
+
+/* Projects */
+.projects-container {
+  width: 90%;
+  margin: auto;
+  margin-top: 5rem;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+  padding: 0px;
+  margin: 50px 0px 0px;
+  display: grid;
+  gap: 15px;
+}
+
+.project {
+  /* background-color: #292035; */
+  padding: 1rem 2rem;
+  border-radius: 1rem;
+  background-color:rgba(41,32,53,0.5);
+  margin:1rem 0 ;
+  transition: all 0.3s;
+}
+
+.project:hover {
+  margin-top:.5rem;
+  margin-bottom: 1.5rem;
+  
+}
+
+.project-head {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 2rem;
+}
+
+.project-title {
+  font-size: var(--text-4xl);
+  margin-bottom: 1rem;
+  color: #ccd6f6;
+  transition: all 0.3ms;
+  font-weight: 600;
+}
+
+.project-title:hover {
+  color: #64ffda;
+}
+
+
+.project-description {
+  font-size:1.3rem;
+  line-height: 2rem;
+  letter-spacing: 0.02rem;
+  margin-bottom: 2rem;
+  color: #a8b2d1;
+}
+
+.projects-container h1{
+  text-align: center;
+}
+
+  :root {
+    --text-xs: 1.75rem;
+    --text-sm: 0.9375rem;
+    --text-base: 1.125rem;
+    --text-md: 1.375rem;
+    --text-lg: 1.625rem;
+    --text-xl: 2rem;
+    --text-2xl: 2.5rem;
+    --text-3xl: 3rem;
+    --text-4xl: 3.625rem;
+    --text-5xl: 4rem;
+  }
+
+
+
+
+  @media (max-width: 64rem) {
+    :root {
+      --text-xs: 1.5875rem;
+      --text-sm: 0.8125rem;
+      --text-base: 1rem;
+      --text-md: 1.1875rem;
+      --text-lg: 1.4375rem;
+      --text-xl: 1.75rem;
+      --text-2xl: 2.0625rem;
+      --text-3xl: 1.5rem;
+      --text-4xl: 3rem;
+      --text-5xl: 2rem;
+    }
+  }
+
+  @media (max-width: 32rem) {
+    .profile-pic{
+      width: 2rem;
+      height: 2rem;
+    }
+    .projects-container {
+      width: 90%;
+    }
+
+    :root {
+      --text-xs: 0.5rem;
+      --text-sm: 0.8125rem;
+      --text-base: 1rem;
+      --text-md: 1.1875rem;
+      --text-lg: 1.4375rem;
+      --text-xl: 1.2rem;
+      --text-2xl: 1.625rem;
+      --text-3xl: 1.2rem;
+      --text-4xl: 2.6rem;
+      --text-5xl: 2rem;
+    }
+   
+  }
+
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}

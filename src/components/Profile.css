@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Preahvihear&display=swap');
+
+.profile  {
+    width: 70%;
+    text-align: left;
+    margin: auto;
+    font-style: normal;
+    /* line-height: 9rem; */
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.profile-name {
+    letter-spacing : -0.5px; 
+    font-weight : 400;
+    font-size : var(--text-lg);
+    line-height : 9.7rem;
+}
+
+.profile-pic-container {
+    width: 20rem;
+    height: 20rem;
+    /* background: #763CAC; */
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+}
+
+.profile-pic {
+    width: 20rem;
+    height:20rem;
+    border-radius: 50%;
+    background: radial-gradient(50% 50% at 50% 50%, #763CAC 0%, rgba(50, 15, 133, 0) 100%);
+}
+
+.profile span{
+    color: #7127BA;
+}
+
+.profile-descrption {
+    display: flex;
+    gap:2rem;
+    letter-spacing: -0.5px;
+    margin-top: 0px;  
+}
+
+.profile-tag {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-tag-initial {
+    font-size: var(--text-md);
+    line-height: 3.1rem;
+/* identical to box height */
+    display: flex;
+    align-items: center;
+    text-align: center;
+    letter-spacing: 0.02em;
+    text-decoration-line: underline;
+}
+
+.profile-tag-main {
+    font-size: var(--text-5xl);
+    line-height: var(--text-5xl);
+    align-items: center;
+    letter-spacing: 0.02em;
+}
+
+.profile-tag-line {
+    font-size: var(--text-xs);
+    line-height: 2.0rem;
+    /* identical to box height */
+    letter-spacing: 0.02em;
+    margin-top: 4rem;
+}
+
+.aboutme-heading {
+    margin-top: var(--text-5xl);
+    font-family: 'Preahvihear';
+    font-style: normal;
+    font-weight: 400;
+    letter-spacing: 0.02em;
+    font-size: var(--text-5xl);
+    /* line-height: 9rem; */
+    margin-top: var(--text-5xl);
+}
+.aboutme-sub-heading {
+    font-size: var(--text-3xl);
+    line-height:  var(--text-2xl);
+    margin-bottom: 9rem;
+    letter-spacing: 0.02em;
+}
+
+.aboutme-text {
+    font-size: var(--text-3xl);
+    line-height:  var(--text-5xl);   
+    letter-spacing: 0.02em;
+}
+
+@media (max-width: 32rem) {
+    .profile{
+        width: 90%;
+    }
+    .profile-pic{
+      width: 8rem;
+      height: 8rem;
+    }
+    .profile-pic-container {
+        width: 8rem;
+        height: 8rem;
+    }
+    .aboutme-sub-heading {
+        margin-bottom: 3rem;
+    }
+    .profile-tag-main {
+        margin-bottom: 1rem;
+    }
+    .profile-tag-line{
+        margin-top: 0rem;
+        font-size: 0.4rem;
+    }
+}
