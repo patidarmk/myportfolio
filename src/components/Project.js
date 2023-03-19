@@ -1,7 +1,7 @@
 import { memo } from 'react'
 import harryPotterPreview from '../assets/harry-potter.PNG'
 import spotifyPreview from '../assets/spotify_preview.PNG'
-import ticTactToePreview from '../assets/tic-tac-toe.PNG'
+import ticTactToePreview from '../assets/tic-tac-toe.PNG' 
 const Project = memo(() => {
     return (
         <div className="projects-container">
