@@ -1,5 +1,5 @@
 import './App.css';
-import Project from './components/Projects';
+import Project from './components/Project';
 import Navbar from "./components/Navbar"
 import Profile from './components/Profile';
 import Contact from './components/Contact';
