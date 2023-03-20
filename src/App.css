@@ -612,6 +612,7 @@ p{
     .profile-action {
       align-self: center;
       margin-top: 0rem;
+	  margin-bottom:2rem;
     }
     .experience-section {
       width: 90%;
