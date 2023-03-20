@@ -18,7 +18,7 @@ function Profile(){
                 <div className="aboutme-heading">I'm a Software Developer. </div>
                 <div className="aboutme-sub-heading" >Currently, I'm a Software Engineer at Wipro,</div>
 
-                <p className="aboutme-text">A self-taught UI/UX designer, functioning in the industry for 3+ years now.
+                <p className="aboutme-text">A self-taught web developer, functioning in the industry for 2+ years now.
                     I make meaningful and delightful digital products that create an equilibrium
                     between user needs and business goals.</p>
 
