@@ -15,13 +15,13 @@ function Navbar() {
       </div>
 
       <div className="nav-links">
-        <a href="//github.io/jo_geek">Github</a>
-        <a href="http://stackoverflow.com/users/4084003/">Work Details</a>
-        <a href="https://in.linkedin.com/in/jonesvinothjoseph">Projects</a>
-        <a href="https://codepen.io/jo_Geek/">contact me</a>
+        <a href="//github.io/patidarmk">Github</a>
+        <a href="#">Work Details</a>
+        <a href="#">Projects</a>
+        <a href="#">contact me</a>
         <button
           className="nav-link-resume-btn"
-          href="https://jsfiddle.net/user/jo_Geek/"
+          href=""
         >
           Resume
         </button>
