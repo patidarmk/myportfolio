@@ -27,9 +27,9 @@ const About = () => {
             <li>CSS</li>
 			<li>JavaScript</li>
             <li>React JS</li>
-            <li>github</li>
-            <li>php</li>
-            <li>GraphQL</li>
+            <li>Github</li>
+            <li>PhP</li>
+            <li>mySql</li>
             <li>GraphQL</li>
           </ul>
         </div>
