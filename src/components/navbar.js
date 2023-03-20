@@ -15,7 +15,7 @@ function Navbar() {
       </div>
 
       <div className="nav-links">
-        <a href="//github.io/patidarmk">Github</a>
+        <a href="//github.com/patidarmk">Github</a>
         <a href="#">Work Details</a>
         <a href="#">Projects</a>
         <a href="#">contact me</a>
