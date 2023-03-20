@@ -78,12 +78,11 @@
 }
 
 .aboutme-heading {
-    margin-top: var(--text-4xl);
     font-family: 'Preahvihear';
     font-style: normal;
     font-weight: 400;
     letter-spacing: 0.02em;
-    font-size: var(--text-5xl);
+    font-size: var(--text-4xl);
     /* line-height: 9rem; */
     margin-top: var(--text-5xl);
 }
