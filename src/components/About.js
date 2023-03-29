@@ -10,7 +10,7 @@ const About = () => {
           <p>
             I am a frontend developer, whose whole interest in building
             interactive, accessible, and responsive websites. My project Section
-            contains some beautiful things i'he built.
+            contains some beautiful things i've built.
           </p>
           <p>
             i'm currently open to job opportunities where i can contibute to

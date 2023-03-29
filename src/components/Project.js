@@ -23,7 +23,7 @@ const Project = memo(() => {
               Spotify Clone App
             </a>
             <div className="project-description">
-              A web app for View your top artists, top tracks, recently played
+              A web app for view your top artists, top tracks, recently played
               tracks, and detailed audio information about each track play,
               pause and more.
             </div>
@@ -85,11 +85,11 @@ const Project = memo(() => {
               rel="noreferrer"
               href="https://patidarmk-harry-potter.netlify.app/"
             >
-              Harry Potter
+              Word App
             </a>
             <div className="project-description project-description-left">
-              A program to find no of word count,sentenses which contains
-              perticular word , all the noun and conversation in a story{" "}
+              A program to find no of word count,sentences which contains
+              particular word , all the noun and conversation in a story.
             </div>
             <div className="project-skills">
               <span>HTML</span>

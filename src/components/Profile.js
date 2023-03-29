@@ -1,5 +1,6 @@
 import "./Profile.css"
 import pic from '../assets/pic.jpg'
+import resume from '../assets/resume.pdf'
 function Profile(){
     return (
         <div className="profile">
@@ -24,8 +25,8 @@ function Profile(){
 
             </div>
             <div className="profile-action">
-                <button className="profile-btn see-my-work--btn">See My Work</button>
-                <button className="profile-btn view-resume--btn">View Resume</button>
+                <a className="profile-btn see-my-work--btn" href="#">See My Work</a>
+                <a className="profile-btn view-resume--btn" href={resume} target="_blank" rel="noreferrer">View Resume</a>
             </div>
         </div>
     )
