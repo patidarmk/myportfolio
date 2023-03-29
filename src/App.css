@@ -475,8 +475,8 @@ h2 {
 }
 
 .contact-me--btn , .nav-link-resume-btn {
-  width: 15rem;
-  height: 5rem;
+  width: 10rem;
+  height: 2rem;
   font-size: 2rem;
   font-weight: 500;
   background-color: transparent;
@@ -484,6 +484,9 @@ h2 {
   border: 1px solid #64ffda;
   color: #FFFFFF;
   border-radius: .5rem;
+  line-height:2rem;
+  text-align:center;
+  text-decoration:none;
 }
 
 .nav-link-resume-btn {

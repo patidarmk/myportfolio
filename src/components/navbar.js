@@ -1,5 +1,6 @@
 import "./navbar.css";
 import logoimage from "../assets/logo.png";
+import resume from '../assets/resume.pdf'
 
 function Navbar() {
   return (
@@ -19,12 +20,12 @@ function Navbar() {
         <a href="#">Work Details</a>
         <a href="#">Projects</a>
         <a href="#">contact me</a>
-        <button
+        <a
           className="nav-link-resume-btn"
-          href=""
+          href={resume} target="_blank" rel="noreferrer"
         >
           Resume
-        </button>
+        </a>
       </div>
     </div>
   );

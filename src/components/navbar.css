@@ -104,5 +104,12 @@
       height: calc(100vh - 50px);
       overflow-y: auto;
     }
+	.nav-link-resume-btn{
+      width: 10rem;
+      height: 3rem;
+      margin-right: 0;
+	  border:none;
+	  text-align:right;
+    }
   }
 
