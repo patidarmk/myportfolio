@@ -8,7 +8,7 @@ const Contact = () => {
 
       <footer className="footer">
         <div className="footer-left">
-          <p>Tahnks for checking my portfolio</p>
+          <p>Thanks for checking my portfolio</p>
           <p>I'm Currently open to work</p>
         </div>
         <div className="social-icon-container">
