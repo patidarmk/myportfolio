@@ -32,9 +32,11 @@ function Profile(){
         </div> */
 		<div className="profile-container">
 			<div className="profile-title-left">
-				<span className="profile-title">HI, I AM MUKESH</span>
-				<span className="profile-sub-title">A Front-End Developer & Design Enthusiast</span>
-				<a className="profile-btn view-resume--btn" href={resume} target="_blank" rel="noreferrer">View Resume</a>
+				<div className="profile-title-left-section">
+					<span className="profile-title">HI, I AM MUKESH</span>
+					<span className="profile-sub-title">A Front-End Developer & Design Enthusiast</span>
+					<a className="profile-btn view-resume--btn" href={resume} target="_blank" rel="noreferrer">View Resume</a>
+				</div>
 			</div>
 			<div className="profile-svg-right">
 				<img className = "profile-image-svg" src={imageIcon} alt="profile-cover"/>
