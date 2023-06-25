@@ -120,10 +120,10 @@
 .profile-title-left-section {
 	display:flex;
 	flex-direction:column;
-	justify-content:center;
 	gap:1rem;
-	align-items:flex-end;
-	widyh:100%;
+	width:100%;
+	margin-left:10rem;
+	justify-content:center
 }
 
 .profile-svg-right {
