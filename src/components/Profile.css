@@ -118,6 +118,7 @@
 	justify-content:center;
 	gap:1rem;
 	width:33%
+	align-items:center;
 }
 
 .profile-svg-right {
