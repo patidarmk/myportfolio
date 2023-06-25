@@ -124,8 +124,13 @@
 	width:66%
 }
 .profile-image-svg {
-	max-width:100%;
+	max-width:90%;
 	height:auto;
+}
+
+.profile-title {
+	font-size: 2.25rem;
+    line-height: 2.5rem;
 }
 
 @media (max-width: 32rem) {
@@ -145,6 +150,11 @@
 
 	.profile-svg-right {
 		width:100%
+	}
+	
+	.profile-title {
+		font-size: 1.875rem;
+		line-height: 2.25rem;
 	}
 	
     .profile{
