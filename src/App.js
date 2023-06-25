@@ -10,7 +10,7 @@ function App() {
     <>
       <Navbar />
       <div className="wrapper">
-        <div className="vertical-icon">
+      /*   <div className="vertical-icon">
           <svg 
             className="social-icon"
             xmlns="http://www.w3.org/2000/svg"
@@ -133,7 +133,7 @@ function App() {
             </g>
           </svg>
           <div className="social-icon-vl"></div>
-        </div>
+        </div> */
         <div className="App">
           <Profile />
           <About />
@@ -141,10 +141,10 @@ function App() {
           <Contact />
         </div>
 
-        <aside className="vertcal-content-end">
+    /*     <aside className="vertcal-content-end">
           <p className="mail-info">patidarmukesh123@gmail.com</p>
           <div className="social-icon-vl-end"></div>
-        </aside>
+        </aside> */
       </div>
     </>
   );
