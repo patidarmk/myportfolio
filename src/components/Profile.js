@@ -3,7 +3,7 @@ import pic from '../assets/pic.jpg'
 import resume from '../assets/resume.pdf'
 function Profile(){
     return (
-        <div className="profile">
+/*         <div className="profile">
             <div className="profile-name">Hello! I Am <span>Mukesh Patidar</span></div>
             <div className="profile-descrption">
                 <div className="profile-pic-container">
@@ -28,7 +28,20 @@ function Profile(){
                 <a className="profile-btn see-my-work--btn" href="#">See My Work</a>
                 <a className="profile-btn view-resume--btn" href={resume} target="_blank" rel="noreferrer">View Resume</a>
             </div>
-        </div>
+			
+        </div> */
+		<div className="profile-container">
+			<div className="profile-title-left">
+				<span className="profile-title">HI, I AM MUKESH</span>
+				<span className="profile-sub-title">A Front-End Developer & Design Enthusiast</span>
+				<a className="profile-btn view-resume--btn" href={resume} target="_blank" rel="noreferrer">View Resume</a>
+			</div>
+			<div className="profile-svg-right">
+				<img className = "profile-image-svg" src={imageDeveloper} alt="profile-cover"/>
+			</div>
+		</div>
+		
+		
     )
 }
 

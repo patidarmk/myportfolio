@@ -99,6 +99,20 @@
     letter-spacing: 0.02em;
 }
 
+.profile-container {
+	display:flex;
+	justify-content:space-between;
+}
+
+.profile-title {
+	font-size:14px;
+}
+
+.profile-sub-title {
+	font-size:12px;
+}
+
+
 @media (max-width: 32rem) {
     .profile{
         width: 90%;
