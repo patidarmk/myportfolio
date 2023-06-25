@@ -19,13 +19,13 @@ function Navbar() {
         <a href="#">Projects</a>
         <a href="#">contact me</a>
 		<a href="#">About</a>
-        <a
+      </div>
+	  <a
           className="nav-link-resume-btn"
           href={resume} target="_blank" rel="noreferrer"
         >
           Resume
         </a>
-      </div>
     </div>
   );
 }
