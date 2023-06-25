@@ -105,14 +105,6 @@
 	font-family: 'Poppins';
 }
 
-.profile-title {
-	font-size:14px;
-}
-
-.profile-sub-title {
-	font-size:12px;
-}
-
 .profile-title-left{
 	text-align:left;
 	width:33%;
@@ -126,6 +118,7 @@
 	justify-content:center;
 	margin-left:7rem;
 	margin-top:25rem;
+	
 }
 
 .profile-svg-right {
@@ -146,6 +139,7 @@
 	font-size: 2.875rem;
     line-height: 3.25rem;
 	margin-bottom:2rem;
+	color:rgb(229 231 235);
 }
 
 @media (max-width: 32rem) {
