@@ -477,8 +477,8 @@ h2 {
 
 .contact-me--btn , .nav-link-resume-btn {
   width: 10rem;
-  height: 2rem;
   font-size: 2rem;
+  padding:1rem;
   font-weight: 600;
   background-color: transparent;
   outline:none;
