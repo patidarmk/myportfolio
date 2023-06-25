@@ -169,6 +169,10 @@
 		font-size: 1.875rem;
 		line-height: 2.25rem;
 	}
+	.profile-sub-title {
+		font-size:0.875rem;
+		line-height:1.25rem;
+	}
 	
     .profile{
         width: 90%;
