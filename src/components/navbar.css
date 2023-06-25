@@ -23,7 +23,7 @@
   
   .nav > .nav-links {
     display: inline;
-    float: center;
+    float: right;
     font-size: 18px;
   }
   
@@ -89,7 +89,6 @@
       width: 15rem;
       height: 5rem;
       margin-right: 0;
-	  float:right;
     }
 
     .nav > .nav-links > a {

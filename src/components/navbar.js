@@ -17,15 +17,15 @@ function Navbar() {
 
       <div className="nav-links">
         <a href="#">Projects</a>
-		<a href="#">About me</a>
-        <a href="#">Contact</a>
-      </div>
-	  <a
+        <a href="#">contact me</a>
+		<a href="#">About</>
+        <a
           className="nav-link-resume-btn"
           href={resume} target="_blank" rel="noreferrer"
         >
           Resume
         </a>
+      </div>
     </div>
   );
 }
