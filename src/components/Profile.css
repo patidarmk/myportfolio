@@ -114,11 +114,16 @@
 }
 
 .profile-title-left{
+	text-align:left;
+	width:33%;
+}
+.profile-title-left-section {
 	display:flex;
 	flex-direction:column;
 	justify-content:center;
 	gap:1rem;
-	width:33%;
+	align-items:flex-end;
+	widyh:100%;
 }
 
 .profile-svg-right {
