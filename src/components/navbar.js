@@ -16,13 +16,9 @@ function Navbar() {
       </div>
 
       <div className="nav-links">
-        /* <a href="//github.com/patidarmk">Github</a> */
-        /* <a href="#">Work Details</a> */
         <a href="#">Projects</a>
 		<a href="#">About me</a>
         <a href="#">Contact</a>
-		
-        
       </div>
 	  <a
           className="nav-link-resume-btn"
