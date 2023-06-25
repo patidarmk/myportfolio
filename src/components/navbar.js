@@ -16,17 +16,20 @@ function Navbar() {
       </div>
 
       <div className="nav-links">
-        <a href="//github.com/patidarmk">Github</a>
-        <a href="#">Work Details</a>
+        /* <a href="//github.com/patidarmk">Github</a> */
+        /* <a href="#">Work Details</a> */
         <a href="#">Projects</a>
-        <a href="#">contact me</a>
-        <a
+		<a href="#">About me</a>
+        <a href="#">Contact</a>
+		
+        
+      </div>
+	  <a
           className="nav-link-resume-btn"
           href={resume} target="_blank" rel="noreferrer"
         >
           Resume
         </a>
-      </div>
     </div>
   );
 }
